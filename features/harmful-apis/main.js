@@ -83,7 +83,7 @@ const tests = [
     {
         id: 'ambientlightsensor-api',
         run: () => {
-            return ('AmbientLightSensorSensor' in window);
+            return ('AmbientLightSensor' in window);
         }
     },
     {
